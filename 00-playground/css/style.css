@@ -1,0 +1,18 @@
+html {
+    --color-1: red;
+    --color-2: blue;
+    --color-3: green;
+
+    --bg: linear-gradient(to right, var(--color-1), var(--color-2));
+    --bg-variation: linear-gradient(to right, var(--color-1), var(--color-3), var(--color-2));
+}
+
+.variation {
+
+    background: var(--bg-variation);
+}
+
+div {
+    height: 25vh;
+    background: var(--bg);
+}
