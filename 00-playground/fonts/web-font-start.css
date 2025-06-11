@@ -1,0 +1,53 @@
+/* General setup */
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 4.2rem;
+  font-family: hydrogen_whiskeyregular, serif;
+}
+
+h2 {
+  font-size: 3.4rem;
+  font-family: hydrogen_whiskeyregular, serif;
+}
+
+p {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+  font-family: schoolbellregular, sans-serif;
+}
+
+@font-face {
+  font-family: 'hydrogen_whiskeyregular';
+  src: url('fonts/hydrogen_whiskey-webfont.woff2') format('woff2'),
+    url('fonts/hydrogen_whiskey-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'schoolbellregular';
+  src: url('fonts/schoolbell-webfont.woff2') format('woff2'),
+    url('fonts/schoolbell-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
